@@ -1,4 +1,4 @@
-name: Build GK Credit APK
+name: APK Build GK Credit
 
 on:
   workflow_dispatch:
@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: GK-Credit-APK
-          path: build/app/outputs/flutter-apk/app-release.ap
+          path: build/app/outputs/flutter-apk/app-release.apk
